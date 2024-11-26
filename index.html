@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Avaliação</title>
+</head>
+<body>
+    <header>
+       <div>PERGUNTAS E RESPOSTAS</div> 
+    </header>
+    <main>
+        <section>
+            <div class="number">1</div>
+            <div class="pergunta">O que é uma publicação web, quais os dois tipos de aplicações existentes e suas principais diferenças.</div>
+            <div>
+                R: Uma publicação web é quando a parte interativa com o usuário esta em um navegador.<br>
+                Existe dois tipo de publicação web o estáticos e dinâmicos.O estáticos é algo mais simples que não tem necessidade e um backEnd, já o dinâmico é algo mais complexo e necessita de um backEnd para processar as informações.
+            </div>
+        </section>
+        <section>
+            <div class="number">2</div>
+            <div class="pergunta">O que é um domínio e um DNS.</div>
+            <div>  
+                R: Domínio é o nome do site que fica na url Ex: <a href="https://github.com">github.com</a>. <br>
+                DNS é meio que um tradutor que converte o domínio do site ou nome para um IP onde a maquina possa entender.
+            </div>
+        </section>
+        <section>
+            <div class="number">3</div>
+            <div class="pergunta">Explique o que é um servidor compartilhado e um servidor dedicado, evidenciando suas vantagens e desvantagens.</div>
+            <div>
+                R:Um servidor compartilhado é quando existem vários sites em um uníco servidor sua vantagem é que o preço por estar hospedado é baixo isso é bom maus sua desvantagem é que como tem varios sites em um uníco servidor pode ter falhas de segurança e se o servidor cair todos os sites cai junto. <br>
+                Um servidor dedicado é um servidor dedicado apenas um site sua vantagem é a segurança e potencia total ao site mas sua desvantagem é o alto custo de mantar apenas grandes empresas e sites com grande acesso diário tem servidores dedicados.
+            </div>
+        </section>
+        <section>
+            <div class="number">4</div>
+            <div class="pergunta">O que é um servidor web, explique os dois principais servidores. Como fazer o backup de um projeto de forma compactada. Bem como restaurá-la.</div>
+            <div>
+                R: Um servidor web é uma maquina responsável por armazenar e entregar os arquivos dos sites para o navegador.Os principais servidores web são o Apache e o CloudFlare. <br>
+                <img src="./img/backupArquivo.png" alt="print debian terminal">
+            </div>
+        </section>
+        <section>
+            <div class="number">5</div>
+            <div class="pergunta">O que é um servidor de banco de dados, explique como fazer o backup e restaurar  esse backup</div>
+            <div>
+                R: Um servidor de banco de dados é onde armazena dados para aplicações e utilizar dados e manipular. <br>
+                <img src="./img/backupdatabase.png" alt="print debian terminal">
+            </div>
+        </section>
+        <section>
+            <div class="number">6</div>
+            <div class="pergunta">O que é um serviço ssh, e como ele permite acessar um servidor web para transferir arquivos de uma máquina local e o servidor.</div>
+            <div>
+                R: um serviço ssh é como uma ponte segura entre a maquina do usuário e o servidor. <br>
+                EX acessar servidor: "ssh usuario@ip_do_servidor" <br>
+                EX transferir arquivos locao para o servidor: "scp index.html user@192.168.1.100:/var/www/html/"
+            </div>
+        </section>
+        <section>
+            <div class="number">7</div>
+            <div class="pergunta">Explique o que é um Linux e cite as principais distribuições usadas como servidor web.</div>
+            <div>
+                R: Linux é um sistema operacional de computadores de software aberto ou open-sorc usaodo para aplicações web. <br>
+                As principais distribuições usadas são o Ubunto, Debian, Red Hat.
+            </div>
+        </section>
+        <section>
+            <div class="number">8</div>
+            <div class="pergunta">Explique alguns comando básicos do Linux.</div>
+            <div>
+                sudo apt update # Ele verifica se tem atualização <br>
+                sudo apt upgrade # Atualiza o sistema operacional <br>
+                comando --help # mostra um manual do comando, explica como usar cada parâmetro. Em outras distibuições podemos usar o `man comando`  <br>
+                login nome_usuario # Loga com um usuário <br>
+                exit # Sai do usuário atual. <br>
+                sudo apt install nome_de_um_programa # instala um programa 
+            </div>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,34 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-size: 24px;
+}
+main {
+    background-color: rgb(44, 44, 44);
+    padding: 100px;
+}
+section {
+    background-color: white;
+    padding: 30px;
+    margin: 30px;
+    border-radius: 20px;
+}
+section .pergunta {
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid rgb(54, 1, 44) ;
+}
+header {
+    display: flex;
+    background-color: rgb(54, 1, 44);
+    justify-content: center;
+    font-size: 40px;
+}
+header div {
+    padding: 30px;
+    color: white;
+}
+.number {
+    font-size: 60px;
+    color: rgb(54, 1, 44) ;
+}
